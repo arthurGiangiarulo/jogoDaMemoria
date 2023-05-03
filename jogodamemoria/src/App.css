@@ -42,17 +42,12 @@
   position: fixed;
 }
 
-#cartas {
+#card {
   transform-style: preserve-3d;
   display: flex;
   justify-content: center;
-  /* animation: rot 1.3s ease-in-out infinite; */
+  transition: all .5s ease-in-out;
 }
-
-/* @keyframes rot {
-  50% { transform: rotateY(.5turn); }
-  100% { transform: rotateY(1turn); }
-} */
 
 .carta {
   display: flex;
