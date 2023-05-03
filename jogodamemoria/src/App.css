@@ -1,18 +1,17 @@
-.body{
+.body {
   margin: 0;
 }
 
-#app{
+#app {
   background-color: blueviolet;
   display: flex;
   padding: 50px;
   justify-content: left;
   width: auto;
   height: auto;
-  
 }
 
-#menu{
+#menu {
   background-color: #ffde59;
   border: 2px solid #de1077;
   border-radius: 0.5em;
@@ -27,7 +26,7 @@
 }
 
 #gameScreen {
-  background-color:rgb(16, 14, 83) ;
+  background-color: rgb(16, 14, 83);
   padding: 30px;
   border: 2px solid #de1077;
   width: 100%;
@@ -40,7 +39,20 @@
   width: 80px;
   height: 80px;
   justify-content: center;
+  position: fixed;
 }
 
+.carta {
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
 
-
+.play {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  padding-right: 75px;
+  position: relative;
+  top: 352px;
+}
