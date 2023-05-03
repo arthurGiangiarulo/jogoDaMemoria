@@ -14,7 +14,6 @@ export default function Card() {
         <div id="card" className="" >
             <div id="cartaFrente" className="carta">
                 <img src={cartaFrente} alt="carta" />
-                <p>1</p>
             </div>
         
             <div id="cartaVerso" className="carta">
