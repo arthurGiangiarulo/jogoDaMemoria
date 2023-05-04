@@ -2,13 +2,16 @@
     transform-style: preserve-3d;
     display: flex;
     justify-content: center;
-    transition: all .4s ease-in-out;
     cursor: pointer;
+    :hover {
+        transform: scale(1.025);
+    }
+    transition: all .4s ease-in-out;
 } 
 .carta {
     display: flex;
-    width: 85px;
-    height: 120px;
+    width: 100px;
+    height: 140px;
     justify-content: center;
     align-items: center;
     overflow: hidden;
