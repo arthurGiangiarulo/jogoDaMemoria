@@ -3,11 +3,16 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
-    :hover {
-        transform: scale(1.025);
-    }
     transition: all .4s ease-in-out;
-} 
+}
+
+#cartaVerso:hover {
+    transform: scale(1.05);
+    float: center;
+    /* box-shadow: 4px 4px 2px rgb(9, 9, 59);
+    transition: all 0.25s; */
+}
+ 
 .carta {
     display: flex;
     width: 100px;
