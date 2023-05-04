@@ -4,14 +4,15 @@ import cartaFrente from "../assets/cartaFrente.png";
 import "./style.css";
 
 export default function Card() {
-    
-    const card = document.getElementById("card");
-    card?.addEventListener("click", function () {
-        card.classList.toggle("flip");
-    });
+
+    const flipCard = () => {
+        const card = document.getElementById("card");
+        card?.classList.toggle("flip");
+        console.log("E ai?")
+    }
 
     return (
-        <div id="card" className="" >
+        <div id="card" className="" onClick={flipCard} >
             <div id="cartaFrente" className="carta">
                 <img src={cartaFrente} alt="carta" />
             </div>
