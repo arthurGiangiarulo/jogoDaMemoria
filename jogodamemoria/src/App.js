@@ -2,7 +2,7 @@
 import React from "react";
 import "./App.css";
 import logo from "./assets/relimpiadas.png";
-import Card from "./card";
+import Card from "./components/card";
 import play from "./assets/play.png";
 
 function App() {
