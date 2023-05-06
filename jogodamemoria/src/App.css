@@ -41,48 +41,6 @@
   justify-content: center;
   position: fixed;
 }
-
-#card {
-  transform-style: preserve-3d;
-  display: flex;
-  justify-content: center;
-  transition: all .5s ease-in-out;
-}
-
-.carta {
-  display: flex;
-  width: 85px;
-  height: 120px;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  position: absolute;
-  backface-visibility: hidden;
-
-}
-
-.carta img{
-  width: 200px;
-  height: 200px;
-}
-
-.carta p {
-  font-size: 100px;
-  position: absolute;
-}
-
-#cartaFrente {
-  transform: rotateY(180deg);
-}
-
-#cartaVerso {
-
-}
-
-.flip {
-  transform: rotateY(180deg);
-}
-
 .play {
   display: flex;
   width: 48px;
