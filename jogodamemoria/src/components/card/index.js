@@ -1,6 +1,6 @@
 import React from "react";
-import cartaVerso from "../assets/carta.png";
-import cartaFrente from "../assets/cartaFrente.png";
+import cartaVerso from "../../assets/carta.png";
+import cartaFrente from "../../assets/cartaFrente.png";
 import "./style.css";
 
 export default function Card() {
