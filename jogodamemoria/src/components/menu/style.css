@@ -1,0 +1,28 @@
+#menu {
+    background-color: #ffde59;
+    border: 2px solid #de1077;
+    border-radius: 0.5em;
+    padding: 30px;
+    text-align: center;
+    margin-right: 30px;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+.logo {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+}
+
+
+
+      
+      
+
+

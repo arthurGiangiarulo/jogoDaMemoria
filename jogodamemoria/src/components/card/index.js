@@ -8,7 +8,6 @@ export default function Card() {
     const flipCard = () => {
         const card = document.getElementById("card");
         card?.classList.toggle("flip");
-        console.log("E ai?")
     }
 
     return (

@@ -22,10 +22,6 @@
     width: 200px;
     height: 200px;
 } 
-  .carta p {
-    font-size: 100px;
-    position: absolute;
-} 
 #cartaFrente {
     transform: rotateY(180deg);
 }

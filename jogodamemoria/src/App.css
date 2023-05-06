@@ -11,20 +11,6 @@
   height: auto;
 }
 
-#menu {
-  background-color: #ffde59;
-  border: 2px solid #de1077;
-  border-radius: 0.5em;
-  padding: 30px;
-  text-align: center;
-  margin-right: 30px;
-  width: 200px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
-}
-
 #gameScreen {
   background-color: rgb(16, 14, 83);
   padding: 30px;
@@ -34,60 +20,3 @@
   border-radius: 0.5em;
 }
 
-.logo {
-  display: flex;
-  width: 80px;
-  height: 80px;
-  justify-content: center;
-  position: fixed;
-}
-
-#card {
-  transform-style: preserve-3d;
-  display: flex;
-  justify-content: center;
-  transition: all .5s ease-in-out;
-}
-
-.carta {
-  display: flex;
-  width: 85px;
-  height: 120px;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  position: absolute;
-  backface-visibility: hidden;
-
-}
-
-.carta img{
-  width: 200px;
-  height: 200px;
-}
-
-.carta p {
-  font-size: 100px;
-  position: absolute;
-}
-
-#cartaFrente {
-  transform: rotateY(180deg);
-}
-
-#cartaVerso {
-
-}
-
-.flip {
-  transform: rotateY(180deg);
-}
-
-.play {
-  display: flex;
-  width: 48px;
-  height: 48px;
-  padding-right: 75px;
-  position: relative;
-  top: 352px;
-}
