@@ -22,3 +22,8 @@ export default function Card() {
         </div>
     );
     }
+
+    const calculateDouble = (number) => {
+        return number * 2;
+    }
+    
