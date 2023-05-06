@@ -1,11 +1,9 @@
 
-import React from "react";
 import { useState, useEffect } from "react";
-import "./App.css";
-import logo from "./assets/relimpiadas.png";
 import Card from "./components/card";
-import play from "./assets/play.png";
-
+import Menu from "./components/menu";
+import React from "react";
+import "./App.css";
 
 function App() {
 
@@ -17,20 +15,13 @@ function App() {
     } else {
       console.log("Não é par");
     }
-  }
-
-  return (
+    
+  }  return (
+    
     <div id="app">
 
-      <div id="menu">
-        <div className="logo">
-          <img src={logo} alt="logo" />
-        </div>
+      <Menu/>
 
-        <div className="play">
-          <img src={play} alt="play" />
-        </div>
-      </div>
 
       
       <div id="gameScreen">
