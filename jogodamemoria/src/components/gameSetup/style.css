@@ -1,29 +1,64 @@
-/* @font-face {
-    font-family: Wedges;
-    src: local(Wedges), url(../fonts/Wedges.ttf)
-  } */
+@font-face {
+    font-family: "Wedges";
+    src: url("../../fonts/Wedges.ttf") format("truetype");
+  }
   
   #gameSetup {
-    background-color: rgb(16, 14, 83);
-    height: 200px;
-    width: 180px;
+    /* background-color: rgb(16, 14, 83); */
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 130px;
+    top: 120px;
+    padding-top: 30px;
+    /* height: 200px; */
+    /* width: 180px; */
   }
   .dialogBox {
+    /* width: 150px; */
     /* display: flex; */
     /* flex-direction: column; */
-    /* margin: 0; */
+    margin-bottom: 15px;
+    /* text-align: left; */
     /* padding: 0; */
   }
   .label {
-    
+    font-family: "Wedges";
+    letter-spacing: 0.01em;
+    font-size: 13px;
+    color: #00c4cc;
+    text-shadow: 
+    0.045em 0.045em rgb(16, 14, 83), 
+    -0.045em 0.045em rgb(16, 14, 83), 
+    0.045em -0.045em rgb(16, 14, 83), 
+    -0.045em -0.045em rgb(16, 14, 83) ;
   }
   .input {
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .input input {
+    height: 20px;
+    border: 2px solid rgb(16, 14, 83);
+    border-color: rgb(16, 14, 83);
+    background-color: #ff999a;
+    border-radius: 1em;
+    padding-left: 10px;
+    font-size: 12px;
+    color: rgb(16, 14, 83);
+  }
+  .input button {
+    height: 20px;
+    border: 2px solid rgb(16, 14, 83);
+    border-color: rgb(16, 14, 83);
+    background-color: rgb(16, 14, 83);
+    border-radius: 1em;
+    font-size: 12px;
+    color: #ff999a;
+    margin-left: 8px;
   }
 
   
