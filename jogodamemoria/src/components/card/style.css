@@ -3,9 +3,6 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
-    :hover {
-        transform: scale(1.025);
-    }
     transition: all .4s ease-in-out;
 } 
 .carta {
@@ -28,4 +25,7 @@
 .flip {
     transform: rotateY(180deg);
 }  
+#cartaVerso:hover {
+    transform: scale(1.025);
+}
   
