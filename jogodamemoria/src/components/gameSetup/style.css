@@ -1,0 +1,30 @@
+/* @font-face {
+    font-family: Wedges;
+    src: local(Wedges), url(../fonts/Wedges.ttf)
+  } */
+  
+  #gameSetup {
+    background-color: rgb(16, 14, 83);
+    height: 200px;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 130px;
+  }
+  .dialogBox {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* margin: 0; */
+    /* padding: 0; */
+  }
+  .label {
+    
+  }
+  .input {
+    display: flex;
+    
+  }
+
+  
+  

@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../../assets/relimpiadas.png";
 import "./style.css";
 import Play from "../play";
+import GameSetup from "../gameSetup";
 
 function Menu() {
   return (
@@ -10,7 +11,9 @@ function Menu() {
         <img src={logo} alt="logo" />
       </div>
 
+      <GameSetup />
       <Play />
+      
     </div>
   );
 }
