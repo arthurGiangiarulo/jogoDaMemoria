@@ -1,37 +1,17 @@
-
 import { useState, useEffect } from "react";
-import Card from "./components/card";
+import GameScreen from "./components/gameScreen";
 import Menu from "./components/menu";
 import React from "react";
 import "./App.css";
 
-function App() {
-
-  const [cards, setCards] = useState([]);
-  
-  function renderCards (cards) {
-    if (cards % 2 === 0) {
-      console.log("É par");
-    } else {
-      console.log("Não é par");
-    }
-    
-  }  return (
+function App() { 
+  return (
     
     <div id="app">
 
       <Menu/>
-
-
+      <GameScreen/>
       
-      <div id="gameScreen">
-      <div>
-        <input placeholder="Qts de cards" onChange={ e => setCards(e.target.value)}/>
-        <button onClick={renderCards()}>Enter</button>
-      </div>
-      <Card/> 
-
-      </div>
     </div>
   );
 }
